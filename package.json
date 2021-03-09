@@ -1,0 +1,20 @@
+{
+  "name": "burger-logger",
+  "version": "1.0.0",
+  "description": "* [Description](#description)\r * [Installation](#installation)\r * [Usage](#usage)\r * [Credits](#credits)\r * [Questions](#questions)\r * [Process](#process)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayn-Pleiades/burger-logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayn-Pleiades/burger-logger/issues"
+  },
+  "homepage": "https://github.com/Kayn-Pleiades/burger-logger#readme"
+}
