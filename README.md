@@ -33,3 +33,6 @@ Created repository on GitHub
 
 ### Commit 2: NPM init
 Package.json created
+
+### Commit 3: Server and Packages
+Created server file and installed needed packages. Required express in server file. 
