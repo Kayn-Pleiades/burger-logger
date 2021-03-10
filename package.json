@@ -2,7 +2,7 @@
   "name": "burger-logger",
   "version": "1.0.0",
   "description": "* [Description](#description)\r * [Installation](#installation)\r * [Usage](#usage)\r * [Credits](#credits)\r * [Questions](#questions)\r * [Process](#process)",
-  "main": "npm start",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
