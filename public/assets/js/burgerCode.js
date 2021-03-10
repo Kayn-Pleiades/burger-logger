@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           const eaten = e.target.getAttribute('data-eaten');
   
           const newState = {
-            devoured: data-eaten,
+            devoured: eaten,
           };
   
           fetch(`/api/burgers/${id}`, {
