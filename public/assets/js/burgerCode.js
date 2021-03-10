@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           console.log('test');
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('data-id');
-          const eaten = e.target.getAttribute('data-eaten');
+          const eaten = true;
   
           const newState = {
             devoured: eaten,
