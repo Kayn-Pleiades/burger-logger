@@ -106,3 +106,6 @@ Tried to add the table and seed data to this new database.
 
 ### Commit 26: link to assets
 fixed links to assets
+
+### Commit 27: Link Fix
+attempt to fix links as css is still not showing
