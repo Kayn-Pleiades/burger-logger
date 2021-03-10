@@ -103,3 +103,6 @@ Trying to set this up because google said it would help.
 
 ### Commit 25: Take 2 with SQL
 Tried to add the table and seed data to this new database. 
+
+### Commit 26: link to assets
+fixed links to assets
