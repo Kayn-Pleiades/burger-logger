@@ -7,7 +7,7 @@ const burger = {
   },
   // The variables cols and vals are arrays.
   insertOne(cols, vals, cb) {
-    orm.createOne('burgers', cols, vals, (res) => cb(res));
+    orm.insertOne('burgers', cols, vals, (res) => cb(res));
   },
 
   updateOne(objColVals, condition, cb) {
