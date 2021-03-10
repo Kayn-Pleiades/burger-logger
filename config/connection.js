@@ -1,18 +1,19 @@
 // Required package
 const mysql = require('mysql');
-
-let port=process.env.PORT||3306
-app.listen(port, () => {
-    console.log(`App running on port ${port} `);
-});
+var connection;
 
 // Create connection to database
-const connection = mysql.createConnection({
+if (process.env.JAWSDB_URL) {
+     const connection = mysql.createConnection(process.env.JAWSDB_URL);
+  }
+  else {
+    const connection = mysql.createConnection({
     host: 'localhost',
-    port: port,
+    port: 3306,
     user: 'root',
     password: '5tRab3RRy3.14',
     database: 'burgers_db'
-});
-  
+    });
+}
+
 module.exports = connection;

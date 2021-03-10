@@ -78,3 +78,6 @@ pass was not being pulled in, so I just put it in. I made up this password for o
 
 ### Commit 17: Port Change
 Google tells me it's likely that I still have my port as local host. I have now changed this. 
+
+### Commit 18: JAWSDB
+Now trying to set up JAWSDB
