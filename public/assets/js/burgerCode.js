@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
   // CREATE
-  const orderBtn = document.getElementById('.submit');
+  const orderBtn = document.getElementById('orderForm');
 
   if (orderBtn) {
     orderBtn.addEventListener('submit', (e) => {
