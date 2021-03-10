@@ -66,3 +66,6 @@ Added Main Handlebars.
 
 ### Commit 13: Rest of Handlebars
 Rest of the handlebars have been added. 
+
+### Commit 14: Javascript for page
+js for page started
