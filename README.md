@@ -81,3 +81,6 @@ Google tells me it's likely that I still have my port as local host. I have now 
 
 ### Commit 18: JAWSDB
 Now trying to set up JAWSDB
+
+### Commit 19: Connect
+Forgot to actually connect to the database
