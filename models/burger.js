@@ -6,7 +6,7 @@ const burger = {
     orm.selectAll('burgers', (res) => cb(res));
   },
   // The variables cols and vals are arrays.
-  createOne(cols, vals, cb) {
+  insertOne(cols, vals, cb) {
     orm.createOne('burgers', cols, vals, (res) => cb(res));
   },
 
