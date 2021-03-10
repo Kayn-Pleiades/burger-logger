@@ -1,5 +1,3 @@
-const burger = require("../../../models/burger");
-
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 document.addEventListener('DOMContentLoaded', (event) => {
     if (event) {
@@ -52,7 +50,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
       // Grabs the value of the textarea that goes by the name, "quote"
       const newOrder = {
-        burger_name: document.getElementById('orderName').value.trim() + `'s Order`,
+        burger_name: document.getElementById('orderName').value.trim(),
       };
 
       console.log(burger_name);
