@@ -72,3 +72,6 @@ js for page started
 
 ### Commit 15: npm start
 Having trouble with Heroku. Changed program to run by npm start instead.
+
+### Commit 16: Pull in password
+pass was not being pulled in, so I just put it in. I made up this password for only mysql and will be changing it after the course ends, so it should be fine.
