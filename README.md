@@ -54,3 +54,6 @@ Made the model file Burger.js.
 
 ### Commit 9: controller
 Wrote the controller file. 
+
+### Commit 10: The rest of the base files
+Added the rest of the base files before I move on to the handlebars. Going to sketch out how I want the site to look. 
