@@ -20,9 +20,7 @@
                     <li>
                         {{burger_name}}
 
-                        <button class="eat" data-id="{{id}}" data-neweat="{{devoured}}">
-                            {{#if devoured}}Throw away{{else}}Eat{{/if}}
-                        </button>
+                        <button type="button" class="btn btn-primary eat">Eat</button>
                     </li>
                     {{/unless}}
                     {{/each}}
