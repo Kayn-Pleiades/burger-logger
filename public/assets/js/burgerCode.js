@@ -21,13 +21,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   
           fetch(`/api/burgers/${id}`, {
             method: 'PUT',
-            headers: {
-              Accept: 'application/json',
-              'Content-Type': 'application/json',
-            },
-  
-            // make sure to serialize the JSON body
-            body: JSON.stringify(newState),
+            data: newState,
           }).then((response) => {
             // Check that the response is all good
             // Reload the page so the user can see the new quote
