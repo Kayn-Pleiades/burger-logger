@@ -60,3 +60,6 @@ Added the rest of the base files before I move on to the handlebars. Going to sk
 
 ### Commit 11: HTML Template
 Created a template to base handlebars off of.
+
+### Commit 12: Main Handlebars.
+Added Main Handlebars.
