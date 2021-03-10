@@ -1,4 +1,5 @@
 # burger-logger
+![screenshot of app](https://github.com/Kayn-Pleiades/burger-logger/blob/main/public/assets/img/Capture.PNG)
 
 ## Table of Contents
 
