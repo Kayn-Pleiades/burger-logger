@@ -1,3 +1,5 @@
+const burger = require("../../../models/burger");
+
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 document.addEventListener('DOMContentLoaded', (event) => {
     if (event) {
@@ -52,6 +54,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const newOrder = {
         burger_name: document.getElementById('orderName').value.trim() + `'s Order`,
       };
+
+      console.log(burger_name);
 
       // Send POST request to create a new quote
       fetch('/api/burgers', {
