@@ -36,3 +36,6 @@ Package.json created
 
 ### Commit 3: Server and Packages
 Created server file and installed needed packages. Required express in server file. 
+
+### Commit 4: Create Schema
+Schema is created. Next will be the seed file.
