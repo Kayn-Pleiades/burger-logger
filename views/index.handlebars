@@ -16,9 +16,15 @@
             <div class="overflow-auto">
                 <ul>
                     {{#each burgers}}
-                        {{#unless devoured}}
-                            {{> burgers/burger-block}}
-                        {{/unless}}
+                    {{#unless devoured}}
+                    <li>
+                        {{burger_name}}
+
+                        <button class="eat" data-id="{{id}}" data-neweat="{{devoured}}">
+                            {{#if devoured}}Throw away{{else}}Eat{{/if}}
+                        </button>
+                    </li>
+                    {{/unless}}
                     {{/each}}
                 </ul>
             </div>
@@ -29,11 +35,11 @@
             <div class="overflow-auto">
                 <ul>
                     {{#each burgers}}
-                        {{#if devoured}}
-                            <li>
-                                {{burger_name}}
-                            </li>
-                        {{/if}}
+                    {{#if devoured}}
+                    <li>
+                        {{burger_name}}
+                    </li>
+                    {{/if}}
                     {{/each}}
                 </ul>
             </div>
@@ -43,4 +49,3 @@
         <button type="button" class="btn btn-primary">Order Yours Here!</button>
     </div>
 </div>
-
