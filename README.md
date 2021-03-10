@@ -21,6 +21,7 @@
 ## Credits
 Activity 13.16
 https://stackoverflow.com/questions/58576290/is-there-a-way-to-create-databases-and-tables-in-jawsdb-on-heroku-deployed-app
+https://stackoverflow.com/questions/54761312/express-handlebars-template-not-loading-css-styling-on-static-routes
 
 ## Questions
 For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com)
@@ -111,3 +112,8 @@ fixed links to assets
 attempt to fix links as css is still not showing
 
 ### Commit 28: Attempt 2
+
+### Commit 29: Why won't my CSS work
+Neither my css or js are loading into handlebars....
+
+### Commit 30: hope this works
