@@ -63,3 +63,6 @@ Created a template to base handlebars off of.
 
 ### Commit 12: Main Handlebars.
 Added Main Handlebars.
+
+### Commit 13: Rest of Handlebars
+Rest of the handlebars have been added. 
