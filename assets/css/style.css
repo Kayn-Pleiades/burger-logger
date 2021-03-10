@@ -1,0 +1,25 @@
+header {
+    background-color: #f9e4ff;
+}
+
+.navbar-brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: x-large;
+}
+
+.box {
+    background-color: antiquewhite;
+    height: 800px;
+}
+
+.menu {
+    height: 600px;
+}
+
+.ready {
+    background-color: aqua;
+}
+
+.yum {
+    background-color: aquamarine;
+}

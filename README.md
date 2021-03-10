@@ -57,3 +57,6 @@ Wrote the controller file.
 
 ### Commit 10: The rest of the base files
 Added the rest of the base files before I move on to the handlebars. Going to sketch out how I want the site to look. 
+
+### Commit 11: HTML Template
+Created a template to base handlebars off of.
