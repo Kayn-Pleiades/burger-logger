@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (eatBtn) {
       eatBtn.forEach((button) => {
         button.addEventListener('click', (e) => {
+          console.log('test');
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('data-id');
           const eaten = e.target.getAttribute('data-eaten');
