@@ -100,3 +100,6 @@ Seeing if changing port on server will help
 
 ### Commit 24: HeidiSQL
 Trying to set this up because google said it would help.
+
+### Commit 25: Take 2 with SQL
+Tried to add the table and seed data to this new database. 
