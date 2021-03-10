@@ -19,7 +19,7 @@
 
 
 ## Credits
-
+Activity 13.16
 
 ## Questions
 For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com)
@@ -45,3 +45,6 @@ Seed file has been created.
 
 ### Commit 6: Connection
 Fixed seed file. Created a connection to the database.
+
+### Commit 7: ORM
+Added and connected the ORM file. 
