@@ -12,15 +12,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
       eatBtn.forEach((button) => {
         button.addEventListener('click', (e) => {
           // Grabs the id of the element that goes by the name, "id"
-          const id = e.target.getAttribute('id');
+          const id = e.target.getAttribute('data-id');
+          const eaten = e.target.getAttribute('data-eaten');
   
           const newState = {
-            devoured: true,
+            devoured: data-eval,
           };
   
-          $ajax(`/api/burgers/${id}`, {
-            type: 'PUT',
-            data: newState,
+          fetch(`/api/burgers/${id}`, {
+            method: 'PUT',
+            headers: {
+              Accept: 'application/json',
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newState),
           }).then((response) => {
             // Check that the response is all good
             // Reload the page so the user can see the new quote
