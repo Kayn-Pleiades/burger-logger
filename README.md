@@ -84,3 +84,6 @@ Now trying to set up JAWSDB
 
 ### Commit 19: Connect
 Forgot to actually connect to the database
+
+### Commit 20: Connection no longer const
+Rather than redefine connection, I was telling the code there was a new const "connection". This has been fixed. 
