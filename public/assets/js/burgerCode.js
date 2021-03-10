@@ -40,5 +40,38 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
       });
     }
-  });
+
+  // CREATE
+  const createCatBtn = document.getElementById('orderForm');
+
+  if (createCatBtn) {
+    createCatBtn.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Grabs the value of the textarea that goes by the name, "quote"
+      const newOrder = {
+        burger_name: document.getElementById('orderName').value.trim() + `'s Order`
+      };
+
+      // Send POST request to create a new quote
+      fetch('/api/burgers', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+
+        // Make sure to serialize the JSON body
+        body: JSON.stringify(newOrder),
+      }).then(() => {
+        // Empty the form
+        document.getElementById('orderName').value = '';
+
+        // Reload the page so the user can see the new quote
+        console.log('Order Placed');
+        location.reload();
+      });
+    });
+  }
+});
   
