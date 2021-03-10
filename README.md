@@ -69,3 +69,6 @@ Rest of the handlebars have been added.
 
 ### Commit 14: Javascript for page
 js for page started
+
+### Commit 15: npm start
+Having trouble with Heroku. Changed program to run by npm start instead.
