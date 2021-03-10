@@ -39,3 +39,6 @@ Created server file and installed needed packages. Required express in server fi
 
 ### Commit 4: Create Schema
 Schema is created. Next will be the seed file.
+
+### Commit 5: Seed File
+Seed file has been created. 
