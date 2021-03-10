@@ -75,3 +75,6 @@ Having trouble with Heroku. Changed program to run by npm start instead.
 
 ### Commit 16: Pull in password
 pass was not being pulled in, so I just put it in. I made up this password for only mysql and will be changing it after the course ends, so it should be fine.
+
+### Commit 17: Port Change
+Google tells me it's likely that I still have my port as local host. I have now changed this. 
