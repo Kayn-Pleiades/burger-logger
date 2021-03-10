@@ -51,3 +51,6 @@ Added and connected the ORM file.
 
 ### Commit 8: Burger.js
 Made the model file Burger.js.
+
+### Commit 9: controller
+Wrote the controller file. 
