@@ -14,10 +14,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
           console.log('test');
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('data-id');
-          const newEat = e.target.getAttribute('data-neweat');
   
           const newState = {
-            devoured: newEat,
+            devoured: true,
           };
   
           fetch(`/api/burgers/${id}`, {
@@ -33,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Check that the response is all good
             // Reload the page so the user can see the new quote
             if (response.ok) {
-              console.log(`changed sleep to: ${newEat}`);
+              console.log(`burger was eaten`);
               location.reload('/');
             } else {
               alert('something went wrong!');
