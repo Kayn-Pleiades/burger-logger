@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
   // CREATE
-  const createCatBtn = document.getElementById('orderForm');
+  const orderBtn = document.getElementById('.submit');
 
-  if (createCatBtn) {
-    createCatBtn.addEventListener('submit', (e) => {
+  if (orderBtn) {
+    orderBtn.addEventListener('submit', (e) => {
       e.preventDefault();
 
       // Grabs the value of the textarea that goes by the name, "quote"
