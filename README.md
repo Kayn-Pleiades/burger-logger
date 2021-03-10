@@ -119,3 +119,5 @@ Neither my css or js are loading into handlebars....
 ### Commit 30: hope this works
 
 ### Commit 31: please work
+
+### Commit 32: Change path

@@ -4,6 +4,8 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
+const publicPath = path.join(__dirname, '../views');
+
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static('public'));
 
