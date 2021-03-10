@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (eatBtn) {
       eatBtn.forEach((button) => {
         button.addEventListener('click', (e) => {
-          console.log('test');
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('id');
   
@@ -19,8 +18,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             devoured: true,
           };
   
-          fetch(`/api/burgers/${id}`, {
-            method: 'PUT',
+          $ajax(`/api/burgers/${id}`, {
+            type: 'PUT',
             data: newState,
           }).then((response) => {
             // Check that the response is all good
