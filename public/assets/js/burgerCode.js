@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         // Reload the page so the user can see the new quote
         console.log('Order Placed');
+        location.reload('/');
       });
     });
   }
