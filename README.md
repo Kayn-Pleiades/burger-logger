@@ -126,3 +126,5 @@ Neither my css or js are loading into handlebars....
 
 ### Commit 34: PLease Please work
 I really hate that I have to commit every tiny little thing to check if hiroku is working
+
+### Commit 35: why
