@@ -48,3 +48,6 @@ Fixed seed file. Created a connection to the database.
 
 ### Commit 7: ORM
 Added and connected the ORM file. 
+
+### Commit 8: Burger.js
+Made the model file Burger.js.
