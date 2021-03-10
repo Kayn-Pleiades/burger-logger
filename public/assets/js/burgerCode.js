@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         button.addEventListener('click', (e) => {
           console.log('test');
           // Grabs the id of the element that goes by the name, "id"
-          const id = e.target.getAttribute('data-id');
+          const id = e.target.getAttribute('id');
   
           const newState = {
             devoured: true,
