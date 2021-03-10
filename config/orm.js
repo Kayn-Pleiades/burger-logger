@@ -1,17 +1,6 @@
 // Required packages
 const connection = require('./connection.js');
 
-// Helper functions
-const printQuestionMarks = (num) => {
-    const arr = [];
-
-    for (let i = 0; i < num; i++) {
-        arr.push('?');
-    }
-
-    return arr.toString();
-}
-
 const objToSql = (ob) => {
     const arr = [];
 
@@ -44,14 +33,10 @@ const orm = {
         });
     },
     // Create
-    insertOne(table, cols, vals, cb) {
+    insertOne(table, cols, cb) {
         let queryString = `INSERT INTO ${table}`;
-
-        queryString += ' (';
-        queryString += cols.toString();
-        queryString += ') ';
         queryString += 'VALUES (';
-        queryString += printQuestionMarks(vals.length);
+        queryString += cols;
         queryString += ') ';
 
         connection.query(queryString, vals, (err, result) => {
