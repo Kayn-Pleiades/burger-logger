@@ -6,8 +6,8 @@ const burger = {
     orm.selectAll('burgers', (res) => cb(res));
   },
   // The variables cols and vals are arrays.
-  createOne(burger_name, cb) {
-    orm.createOne('burgers', burger_name, (res) => cb(res));
+  createOne(cols, vals, cb) {
+    orm.createOne('burgers', cols, vals, (res) => cb(res));
   },
 
   updateOne(objColVals, condition, cb) {
