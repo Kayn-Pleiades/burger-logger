@@ -20,6 +20,7 @@
 
 ## Credits
 Activity 13.16
+https://stackoverflow.com/questions/58576290/is-there-a-way-to-create-databases-and-tables-in-jawsdb-on-heroku-deployed-app
 
 ## Questions
 For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com)
@@ -96,3 +97,6 @@ Now it's telling me it's trying to run via node server.js so...
 
 ### Commit 23: Change port
 Seeing if changing port on server will help
+
+### Commit 24: HeidiSQL
+Trying to set this up because google said it would help.
