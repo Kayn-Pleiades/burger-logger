@@ -42,3 +42,6 @@ Schema is created. Next will be the seed file.
 
 ### Commit 5: Seed File
 Seed file has been created. 
+
+### Commit 6: Connection
+Fixed seed file. Created a connection to the database.
