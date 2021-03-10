@@ -23,9 +23,3 @@ const routes = require('./controllers/burger_controller.js');
 app.use(routes);
 
 app.listen(PORT, () => console.log(`App now listening at localhost:${PORT}`));
-
-app.engine('hbs', expressHandlebars({
-    defaultLayout: 'main',
-    extname: '.hbs',
-    layoutsDir: path.join(__dirname, 'layouts')
-   }))

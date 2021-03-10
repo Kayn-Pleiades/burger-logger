@@ -117,3 +117,5 @@ attempt to fix links as css is still not showing
 Neither my css or js are loading into handlebars....
 
 ### Commit 30: hope this works
+
+### Commit 31: please work
