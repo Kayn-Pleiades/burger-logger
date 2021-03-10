@@ -1,5 +1,5 @@
 // Required packages
-const connection = require('./connection');
+const connection = require('./connection.js');
 
 // Helper functions
 const printQuestionMarks = (num) => {

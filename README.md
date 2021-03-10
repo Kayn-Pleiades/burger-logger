@@ -87,3 +87,6 @@ Forgot to actually connect to the database
 
 ### Commit 20: Connection no longer const
 Rather than redefine connection, I was telling the code there was a new const "connection". This has been fixed. 
+
+### Commit 21: Missing .js 
+Orm was not importing the file due to missing .js in the path
